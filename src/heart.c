@@ -55,7 +55,7 @@ int main() {
     }
 
     //calculate target heart rate given sex and age
-    (target_heart_rate = male ? MALE_RATE - age : FEMALE_RATE - age);
+    target_heart_rate = male ? MALE_RATE - age : FEMALE_RATE - age;
 
     //collect heart rates
     printf("Enter your recorded heart rates:\n");
